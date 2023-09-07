@@ -49,4 +49,17 @@ class AuthenticationManager: ObservableObject {
             }
         }
     }
+    
+    func authenticateWithCredentials(username: String, password: String) {
+        if username.lowercased() == "kitten" && password == "kitten" {
+            isAuthenticated = true
+        } else {
+            errorDescription = "Wrong credentials"
+            showAlert = true 
+        }
+    }
+    
+    func logout() {
+        isAuthenticated = false
+    }
 }

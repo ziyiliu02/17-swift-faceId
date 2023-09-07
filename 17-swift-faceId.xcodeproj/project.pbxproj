@@ -15,6 +15,7 @@
 		6407D6632AA89A6300DC2D94 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6407D6622AA89A6300DC2D94 /* PrimaryButton.swift */; };
 		6407D6662AA89C0900DC2D94 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6407D6652AA89C0900DC2D94 /* LoginView.swift */; };
 		6407D6682AA95E7600DC2D94 /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6407D6672AA95E7600DC2D94 /* AuthenticationManager.swift */; };
+		649E5EB82AA9D9A50022AEF6 /* CredentialsLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649E5EB72AA9D9A50022AEF6 /* CredentialsLoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		6407D6622AA89A6300DC2D94 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
 		6407D6652AA89C0900DC2D94 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		6407D6672AA95E7600DC2D94 /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
+		649E5EB72AA9D9A50022AEF6 /* CredentialsLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredentialsLoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 			children = (
 				6407D6522AA88FFB00DC2D94 /* ContentView.swift */,
 				6407D6652AA89C0900DC2D94 /* LoginView.swift */,
+				649E5EB72AA9D9A50022AEF6 /* CredentialsLoginView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 			files = (
 				6407D6532AA88FFB00DC2D94 /* ContentView.swift in Sources */,
 				6407D6612AA8997C00DC2D94 /* Title.swift in Sources */,
+				649E5EB82AA9D9A50022AEF6 /* CredentialsLoginView.swift in Sources */,
 				6407D6632AA89A6300DC2D94 /* PrimaryButton.swift in Sources */,
 				6407D6682AA95E7600DC2D94 /* AuthenticationManager.swift in Sources */,
 				6407D6662AA89C0900DC2D94 /* LoginView.swift in Sources */,
